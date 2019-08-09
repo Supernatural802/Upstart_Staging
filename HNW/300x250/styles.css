@@ -1,0 +1,103 @@
+/* set your initial positions in the javascript, not the CSS, put attributes you'll not be animating here */
+
+
+/* css reflects all the divs named in the html */
+
+
+/* creates the green background box */
+
+
+
+/*#temp {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-image: url(imgs/temp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+}
+*/
+
+
+
+#whitebk {
+
+  position: absolute;
+  background-color: #fff;
+
+}
+
+#img01 {
+
+    background-image: url(imgs/img01.jpg);
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+
+    width: 324px;
+    height: 308px;
+
+}
+
+#ladderHide {
+
+    background-image: url(imgs/ladderHide.png);
+
+}
+
+#copy01 {
+
+    background-image: url(imgs/copy01.png);
+
+}
+
+#copy02 {
+
+    background-image: url(imgs/copy02.png);
+
+}
+
+#copy03 {
+
+    background-image: url(imgs/copy03.png);
+
+}
+
+#copy04 {
+
+    background-image: url(imgs/copy04.png);
+
+}
+
+#blueWipe {
+
+    background-image: url(imgs/blueWipe.png);
+
+}
+
+
+
+#cta {
+     -webkit-backface-visibility: hidden;
+     -ms-transform: translateZ(0); /* IE 9 */
+     -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+     transform: translateZ(0);
+    background-image: url(imgs/cta.png);
+
+
+}
+
+#logo {
+
+    background-image: url(imgs/logo.jpg);
+
+}
+
+#legal {
+
+    background-image: url(imgs/legal.png);
+
+}
