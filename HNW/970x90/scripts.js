@@ -37,10 +37,10 @@
 
     t.from(copy01, 1, {y:"+=20", ease: Power3.easeOut, delay:1});
     t.to(copy01, 1, {autoAlpha:1, ease: Power2.easeInOut, delay:1})
-    t.to(blueWipe, 1, {x:"-=775", ease: Power3.easeOut, delay:4});
+    t.to(blueWipe, 1, {x:"-=760", ease: Power3.easeOut, delay:4});
 
     t.to(copy02, 1, { autoAlpha:1, ease: Power3.easeOut, delay:5});
-    t.to(copy01, 1, {autoAlpha:0, ease: Power2.easeInOut, delay:6})
+    t.to(copy01, .5, {autoAlpha:0, ease: Power3.easeInOut, delay:4})
 
     t.to(blueWipe, .5, { x:350, ease: Power2.easeInOut, delay:7});
 
