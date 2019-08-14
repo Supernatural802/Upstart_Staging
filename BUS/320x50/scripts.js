@@ -43,7 +43,7 @@
     t.from(copy02, 1, {y:"+=20", ease: Power3.easeOut, delay:1.3});
     t.to(copy02, 1, {autoAlpha:1, ease: Power2.easeInOut, delay:1.3})
 
-    t.to(blueWipe, 1, {x:"-=250", ease: Power3.easeOut, delay:4});
+    t.to(blueWipe, 1, {x:"-=210", ease: Power3.easeOut, delay:4});
 
     t.to(copy03, 1, { autoAlpha:1, ease: Power3.easeOut, delay:5});
     t.to([copy01, copy02], 1, {autoAlpha:0, ease: Power2.easeInOut, delay:6})
