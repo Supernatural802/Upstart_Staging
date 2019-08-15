@@ -17,6 +17,7 @@
 
 
     t.set(blueWipe, {x:215});
+  
     //t.set(img01, {x:-20, y:-15});
     //t.set(img01, {scale:.8});
     t.set(cta, { transformOrigin: "30% 75%" });
