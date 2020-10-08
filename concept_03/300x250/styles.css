@@ -1,0 +1,213 @@
+/* set your initial positions in the javascript, not the CSS, put attributes you'll not be animating here */
+
+
+/* css reflects all the divs named in the html */
+
+
+/* creates the green background box */
+
+
+/* #temp {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-image: url(imgs/temp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+} */
+
+
+#bk1 {
+    background-color: #fff;
+
+}
+
+
+#copy01 {
+ 
+
+    background-image: url(imgs/copy01.png);
+
+}
+
+#copy02 {
+    
+
+    background-image: url(imgs/copy02.png);
+
+}
+
+#copy03 {
+    
+
+    background-image: url(imgs/copy03.png);
+
+}
+
+#copy04 {
+    
+    background-image: url(imgs/copy04.png);
+}
+
+#copy05 {
+    
+    background-image: url(imgs/copy05.png);
+}
+
+
+#copy06 {
+   
+    background-image: url(imgs/copy06.png);
+
+}
+
+
+#money01 {
+   
+    background-image: url(imgs/money01.png);
+
+}
+
+#money02a {
+   
+    background-image: url(imgs/money02a.png);
+
+}
+
+#money02b {
+   
+    background-image: url(imgs/money02b.png);
+
+}
+
+#money03a {
+   
+    background-image: url(imgs/money03a.png);
+
+}
+
+#money03b {
+   
+    background-image: url(imgs/money03b.png);
+
+}
+
+#money03c {
+   
+    background-image: url(imgs/money03c.png);
+
+}
+
+
+
+#img01 {
+   
+    background-image: url(imgs/img01.jpg);
+
+
+}
+
+#img02 {
+   
+    background-image: url(imgs/img02.jpg);
+
+}
+
+#img03 {
+   
+    background-image: url(imgs/img03.jpg);
+
+}
+
+
+
+#introCard {
+   
+    
+    background-image: url(imgs/introCard.jpg);
+
+}
+
+
+
+#logo {
+   
+    
+    background-image: url(imgs/logo.png);
+
+}
+
+#cta {
+   
+    
+    background-image: url(imgs/cta.png);
+
+}
+
+
+
+
+
+
+/*#ctaCopy_green {
+    background-image: url(imgs/ctaCopy_green.png);
+    position: absolute;
+    overflow: hidden;
+    top: 12px;
+    left: 40px;
+    width: 96px;
+    height: 12px;
+
+    z-index: 600;
+}
+
+#ctaCopy_white {
+    background-image: url(imgs/ctaCopy_white.png);
+    position: absolute;
+    overflow: hidden;
+    top: 12px;
+    left: 40px;
+    width: 96px;
+    height: 12px;
+
+
+    z-index: 600;
+}
+
+#cta {
+    position: absolute;
+    overflow: hidden;
+    top: 367px;
+    left: 61px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #fffaf000;
+}
+
+#cta_whiteSlide {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #fff;
+}
+
+#cta_greenSlide {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #1d5b2d;
+}*/
