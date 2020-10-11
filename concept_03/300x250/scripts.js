@@ -40,7 +40,7 @@
 
 
 
-        t.to(introCard, .7, { y: -300, ease: Power3.easeInOut, delay: 2 });
+        t.to(introCard, .5, { y: -300, ease: Power3.easeInOut, delay: 2 });
 
         t.delayedCall(2, Frame02);
 
@@ -52,16 +52,16 @@
      
 
 
-        t.to(img01, .7, { y:0, ease: Power3.easeInOut, delay: 0 });
+        t.to(img01, .5, { y:0, ease: Power3.easeInOut, delay: 0 });
       
-        t.to(copy01, .7, { autoAlpha: 1, ease: Power3.easeOut,  delay: 1 });
-        t.from(money01, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2 });
+        t.from(copy01, .5, { autoAlpha: 0, y: "+=300", ease: Power3.easeInOut,  delay: 0 });
+        t.from(money01, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .5 });
        
-        t.to([img01, copy01, money01], .7, { y: -300, ease: Power3.easeInOut, delay: 4 });
+        t.to([img01, copy01, money01], .5, { y: -300, ease: Power3.easeInOut, delay: 2 });
       
 
 
-        t.delayedCall(4, Frame03);
+        t.delayedCall(2, Frame03);
     };
 
     function Frame03() {
@@ -70,17 +70,17 @@
      
 
 
-        t.to(img02, .7, { y:0, ease: Power3.easeInOut, delay: 0 });
+        t.to(img02, .5, { y:0, ease: Power3.easeInOut, delay: 0 });
       
-        t.to(copy02, .7, { autoAlpha: 1, ease: Power3.easeOut,  delay: 1 });
-        t.from(money02a, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2 });
-        t.from(money02b, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2.1 });
+        t.from(copy02, .5, { autoAlpha: 0, y: "+=300", ease: Power3.easeInOut,  delay: 0 });
+        t.from(money02a, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .5 });
+        t.from(money02b, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .6 });
        
-        t.to([img02, copy02, money02a, money02b], .7, { y: -300, ease: Power3.easeInOut, delay: 4 });
+        t.to([img02, copy02, money02a, money02b], .5, { y: -300, ease: Power3.easeInOut, delay: 2 });
 
 
 
-        t.delayedCall(4, Frame04);
+        t.delayedCall(2, Frame04);
     };
 
     function Frame04() {
@@ -89,16 +89,16 @@
      
 
 
-        t.to(img03, .7, { y:0, ease: Power3.easeInOut, delay: 0 });
+        t.to(img03, .5, { y:0, ease: Power3.easeInOut, delay: 0 });
       
-        t.to(copy03, .7, { autoAlpha: 1, ease: Power3.easeOut,  delay: 1 });
-        t.from(money03a, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2 });
-        t.from(money03b, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2.1 });
-        t.from(money03c, .7, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: 2.2 });
+        t.from(copy03, .5, { autoAlpha: 0, y: "+=300", ease: Power3.easeInOut,  delay: 0 });
+        t.from(money03a, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .5 });
+        t.from(money03b, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .6 });
+        t.from(money03c, .5, {  autoAlpha: 0,y: 30, ease: Power3.easeInOut, delay: .7 });
 
 
-         t.to(bk1, .7, { y:0, ease: Power3.easeInOut, delay: 4 });
-         t.to([img03, copy03, money03a, money03b, money03c], .7, { y: -300, ease: Power3.easeInOut, delay: 4 });
+         t.to(bk1, .5, { y:0, ease: Power3.easeInOut, delay: 3 });
+         t.to([img03, copy03, money03a, money03b, money03c], .5, { y: -300, ease: Power3.easeInOut, delay: 2 });
 
        
         
@@ -107,7 +107,7 @@
 
 
 
-        t.delayedCall(4, Frame05);
+        t.delayedCall(2, Frame05);
     };
 
 
@@ -117,13 +117,13 @@
 
 
 
-        t.to(logo, .7, {  y:0, rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 0 });
-        t.from(copy04, .7, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1 });
-        t.from(copy05, .7, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1.3 });
-        t.from(copy06, .7, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1.5});
+        t.to(logo, .5, {  y:0, rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 0 });
+        t.from(copy04, .5, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1 });
+        t.from(copy05, .5, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1.3 });
+        t.from(copy06, .5, { autoAlpha: 0, y: "+=10", rotation: .01, willChange: "transform", force3D: true, ease: Power3.easeInOut, delay: 1.5});
 
 
-        t.from(cta, .7, { y: "+=20", autoAlpha: 0, ease: Power3.easeInOut, delay: 2, onComplete: function() { rolloverActive = true } });
+        t.from(cta, .5, { y: "+=20", autoAlpha: 0, ease: Power3.easeInOut, delay: 2, onComplete: function() { rolloverActive = true } });
 
 
 

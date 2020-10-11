@@ -1,0 +1,349 @@
+/* set your initial positions in the javascript, not the CSS, put attributes you'll not be animating here */
+
+
+/* css reflects all the divs named in the html */
+
+
+/* creates the green background box */
+
+
+/* #temp {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-image: url(imgs/temp.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+} 
+*/
+
+#bk1 {
+    background-color: #fff;
+
+}
+
+#bk2 {
+    background-image: url(imgs/bk2.jpg);
+
+}
+
+#container {}
+
+
+#quotesTop01 {
+
+    position: absolute;
+    background-image: url(imgs/quotesTop01.png);
+    width: 25px;
+    height: 20px;
+    top: 61px;
+    left: 5px;
+
+
+}
+
+#quotesBottom01 {
+
+    position: absolute;
+    background-image: url(imgs/quotesBottom01.png);
+    width: 25px;
+    height: 20px;
+    top: 164px;
+    left: 135px;
+
+
+}
+
+#ratings01 {
+
+    position: absolute;
+    background-image: url(imgs/ratings01.png);
+    width: 95px;
+    height: 12px;
+    top: 194px;
+    left: 34px;
+
+
+}
+
+#copy01 {
+
+
+    background-image: url(imgs/copy01.png);
+    x: 19px;
+    y: 87px;
+
+
+}
+
+#copy02 {
+
+
+    background-image: url(imgs/copy02.png);
+    x: 146px;
+    y: 99px;
+
+}
+
+#copy03 {
+
+
+    background-image: url(imgs/copy03.png);
+
+    x: 17px;
+    y: 51px;
+
+}
+
+#copy04 {
+
+    background-image: url(imgs/copy04.png);
+}
+
+#copy05 {
+
+    background-image: url(imgs/copy05.png);
+}
+
+
+#copy06 {
+
+    background-image: url(imgs/copy06.png);
+
+}
+
+
+
+#img01 {
+
+    background-image: url(imgs/img01.jpg);
+    top: 0px;
+    left: 0px;
+
+}
+
+#img02 {
+
+    background-image: url(imgs/img02.jpg);
+
+}
+
+#img03 {
+
+    background-image: url(imgs/img03.jpg);
+    top: 0px;
+    left: 0px;
+
+}
+
+
+#introCard {
+
+
+    background-image: url(imgs/introCard.jpg);
+
+}
+
+
+#theMask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+    height: 146px;
+
+
+}
+
+#rectMask {
+
+
+    top: 0px;
+    left: 0px;
+    x: 12px;
+    y: 66px;
+    width: 140px;
+    height: 146px;
+
+
+
+}
+
+#blindGroup {}
+
+.blinds {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 250px;
+    margin: 0px;
+
+}
+
+#blind01 {
+    background-image: url(imgs/blind01.png);
+    top: 0px;
+    left: 270px;
+
+
+}
+
+#blind02 {
+    background-image: url(imgs/blind02.png);
+    top: 0px;
+    left: 240px;
+
+}
+
+#blind03 {
+    background-image: url(imgs/blind03.png);
+    top: 0px;
+    left: 210px;
+
+}
+
+#blind04 {
+    background-image: url(imgs/blind04.png);
+
+    top: 0px;
+    left: 180px;
+}
+
+#blind05 {
+    background-image: url(imgs/blind05.png);
+    top: 0px;
+    left: 150px;
+
+}
+
+#blind06 {
+    background-image: url(imgs/blind06.png);
+    top: 0px;
+    left: 120px;
+
+}
+
+#blind07 {
+    background-image: url(imgs/blind07.png);
+    top: 0px;
+    left: 90px;
+
+}
+
+#blind08 {
+    background-image: url(imgs/blind08.png);
+    top: 0px;
+    left: 60px;
+
+}
+
+#blind09 {
+    background-image: url(imgs/blind09.png);
+    top: 0px;
+    left: 30px;
+
+}
+
+#blind10 {
+    background-image: url(imgs/blind10.png);
+
+    top: 0px;
+    left: 0px;
+}
+
+
+
+#logo {
+
+
+    background-image: url(imgs/logo.png);
+
+}
+
+#logoSM {
+
+    position: absolute;
+    background-image: url(imgs/logoSM.png);
+    width: 92px;
+    height: 18px;
+    top: 153px;
+    left: 38px;
+
+
+}
+
+#cta {
+
+
+    background-image: url(imgs/cta.png);
+
+}
+
+
+
+
+
+
+/*#ctaCopy_green {
+    background-image: url(imgs/ctaCopy_green.png);
+    position: absolute;
+    overflow: hidden;
+    top: 12px;
+    left: 40px;
+    width: 96px;
+    height: 12px;
+
+    z-index: 600;
+}
+
+#ctaCopy_white {
+    background-image: url(imgs/ctaCopy_white.png);
+    position: absolute;
+    overflow: hidden;
+    top: 12px;
+    left: 40px;
+    width: 96px;
+    height: 12px;
+
+
+    z-index: 600;
+}
+
+#cta {
+    position: absolute;
+    overflow: hidden;
+    top: 367px;
+    left: 61px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #fffaf000;
+}
+
+#cta_whiteSlide {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #fff;
+}
+
+#cta_greenSlide {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 176px;
+    border-radius: 5px;
+    z-index: 600;
+    background-color: #1d5b2d;
+}*/
